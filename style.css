@@ -1,0 +1,291 @@
+body{
+    background-color: #e3e6e7;
+}
+.note{
+    width: 100vw;
+    height: 5vw;
+    font-weight: 700;
+    color: red;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+*{
+    margin: 0;  
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navlogo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+  
+    
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.deliverto{
+    color: #cccccc; 
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.india{
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(198, 146, 13);
+    width: 620px;   
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;  
+    justify-content: center;    
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(244, 170, 80);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag{
+    background-image: url(flag.png);
+    height: 16.2px;
+    width: 21.6px;
+    background-size: cover;
+    
+
+}
+.language-select{
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    size: 1.1rem;
+    border: none;
+}
+
+/**box  4*/
+span{
+    font-size: 0.76rem;
+
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** box 6 */
+ 
+.nav-cart i {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    height: 40px;
+    align-items: center;
+
+}
+.panel-option{
+    width: 93%;
+    font-size: 0.85rem;
+}
+
+.panel-option p{
+    display: inline;
+    margin-left: 15px;
+
+}
+
+/** hero section */
+
+.hero-section{
+    background-image: url(happy-diwali_desktop_1x._CB542284954_.jpg);
+    background-size: cover;
+    height: 360px;
+}
+
+
+/** Boxes section*/  
+
+.image-box {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Two columns */
+    grid-template-rows: 1fr 1fr ;
+    width: 1420px; /* Box width */
+    height: 900px; /* Box height */
+    background-color: #e3e6e7;
+    
+  }
+  .boxes{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 10px; /* Spacing between images */
+    width: 300px; /* Box width */
+    height: 400px; /* Box height */
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+
+  }
+  .boxes img{
+    width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  .image-box h2{
+      grid-column: span 2;
+      margin: 10px 0 0 10px;
+      padding: 0px;
+      font-size: 1.3rem;
+  }
+  .image-box a {
+      text-decoration: none;
+    color: #007185;
+    font-size: 1rem;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+
+  /* Image style */
+  
+  .boxes img{
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      width: 126.6;
+      height: 102.2;
+      object-fit: cover;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  .image-box figcaption {
+    text-align: center;
+    margin: 0;
+    font-size: 0.90rem;
+  }
+
+  /* section 3rd*/
+
+  .lengthybox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    width: 1400px;
+    height: 285px;
+    background-color: white;
+    margin-top: 20px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .grid img{
+        width: 200px;
+        height: auto;
+        object-fit: cover;
+        margin-top: 0px;
+        padding: 10px 2px 20px 20px;
+  }
+  .lengthybox h3{
+    grid-column: span 3;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+
+    /* section 4th*/
+
+    .lengthybox{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        width: 1400px;
+        height: 285px;
+        background-color: white;
+        margin-top: 20px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+      }
+      .grid img{
+            width: 200px;
+            height: auto;
+            object-fit: cover;
+            margin-top: 0px;
+            padding: 10px 2px 20px 20px;
+      }
+      .lengthybox h3{
+        grid-column: span 3;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 20px;
+            padding-left: 20px;
+        }
